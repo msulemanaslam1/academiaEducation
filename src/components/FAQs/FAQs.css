@@ -1,0 +1,54 @@
+.faq_container{
+    padding: 4rem 8rem;
+    background: whitesmoke;
+}
+
+.faq_section{
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.faq_section .accordionText{
+    display: none;
+    padding: 1.5rem;
+    border: .5px solid black;
+    font-size: 15px;
+    opacity: .7;
+}
+
+.faq_section .show{
+    display: block;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: .8rem 1rem;
+    border: .5px solid black;
+}
+
+.faq > h5:hover{
+    color: #1eb2a6;
+}
+
+.faq > span{
+    font-weight: 900;
+}
+
+.faq_section .changeBack{
+    background-color: #1eb2a6;
+    transition: all .5s ease;
+    color: white;
+    border: none;
+}
+
+.faq_section .changeBack > h5{
+    color: black;
+}
+
+@media screen and (max-width:425px){
+    .faq_container{
+        padding: 4rem 1rem;
+    }
+}

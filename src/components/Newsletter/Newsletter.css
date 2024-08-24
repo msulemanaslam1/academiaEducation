@@ -1,0 +1,48 @@
+.newsLetter_con{
+    display: flex;
+    gap: 5rem;
+    padding: 3rem 4rem;
+    color: white;
+    background: #1eb2a6;
+}
+
+.input_con input{
+    background: #1eb2a6;
+    color: white;
+    margin-right: 7rem;
+    width: 12rem;
+}
+
+.input_con input::placeholder{
+    color: white;
+}
+
+.input_con hr{
+    background-color: white;
+    height: 1px;
+    width: 20rem;
+    opacity: .7;
+    margin-top: 3px;
+}
+
+@media screen and (max-width:769px){
+    .newsLetter_con{
+        padding: 2rem;
+    }
+    .input_con input{
+        margin-right: 1rem;
+    }
+    .input_con hr{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width:426px){
+    .newsLetter_con{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .input_con hr{
+        width: 14rem;
+    }
+}

@@ -1,0 +1,116 @@
+.main_container{
+    padding: 4rem 3rem;
+    background: whitesmoke;
+}
+
+.main_container > p, h1{
+    text-align: center;
+}
+
+.main_container > p{
+    color: #1eb2a6;
+    font-weight: bold;
+}
+
+.container{
+    background: white;
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+.upper_container{
+    display: flex;
+    gap: 1rem;
+}
+
+.slider{
+    padding: 3rem 0rem;
+}
+
+.upper_container .icon_container{
+    flex-basis: 15%;
+    font-size: 3rem;
+    position: relative;
+    z-index: 1;
+}
+/* 
+.icon_container::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #1eb2a6;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: -1;
+} */
+
+.upper_container .text_container{
+    padding: 0;
+    flex-basis: 85%;
+}
+
+.text_container{
+    background: white;
+}
+
+.text_container .avatar_container{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.avatar_container img{
+    width: 30px;
+    height: 30px;
+}
+
+.avatar_container > p{
+    margin-top: .3rem;
+    margin-left: .5rem;
+    opacity: .6;
+}
+
+.fee {
+    margin-top: 1rem;
+    background: whitesmoke;
+    font-size: 14px;
+    color: #1eb2a6;
+    padding: .6rem 0rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.container button{
+    padding: .6rem 6.37rem;
+    text-align: center;
+    text-wrap: nowrap;
+    background: white;
+    border: 1px solid #1eb2a6;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    color: white;
+    background: #1eb2a6;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 20px;
+    height: 3px;
+    background: #1eb2a6;
+    margin: 0 3px;
+}
+
+.swiper-slide-active button{
+    background-color: #1eb2a6;
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    .main_container{
+        padding: 4rem 0.5rem;
+    }
+}

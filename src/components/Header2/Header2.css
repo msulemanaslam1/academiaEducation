@@ -1,0 +1,108 @@
+.header2_container {
+  background-image: url("/src/images/image1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem 4rem;
+}
+
+.logo_container > h2 {
+  color: white;
+  cursor: pointer;
+}
+
+.logo_container > h2:hover {
+  color: #1eb2a6;
+  transition: color 0.5s ease;
+}
+
+.logoLinks_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social {
+  background-color: rgba(255, 255, 255, 0.179);
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social:hover {
+  background-color: #1eb2a6;
+}
+
+.social:hover a {
+  color: white;
+}
+
+.social a {
+  color: #1eb2a6;
+}
+
+.centralSection {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  color: white;
+  height: 150px;
+  font-weight: bold;
+}
+
+.centralSection .link {
+  color: white;
+}
+
+.homeLink{
+  display: flex;
+}
+
+.homeLink:hover{
+  color: #1eb2a6;
+}
+
+.homeLink:hover .link{
+  color: #1eb2a6;
+}
+
+.dynamicContentSection{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 769px) {
+  .header2_container {
+    padding: 1rem 0rem;
+    height: auto;
+  }
+
+  .logoLinks_container {
+    padding: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .social_links {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 426px){
+  .dynamicContentSection{
+    font-size: 20px;
+  }
+}

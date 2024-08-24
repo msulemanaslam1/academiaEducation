@@ -1,0 +1,65 @@
+.mainPricing_con {
+  background: whitesmoke;
+  padding: 2rem;
+}
+
+.pricing_con {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.pricing_section {
+  padding: 2rem;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+}
+
+.price_con {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.price_con > h1 {
+  color: #1eb2a6;
+}
+
+.pricing_section button {
+  padding: 0.3rem 1.3rem;
+  margin: auto;
+  color: #1eb2a6;
+  background: white;
+  border: 1px solid #1eb2a6;
+  display: block;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.pricing_section button:hover {
+  background-color: #1eb2a6;
+  color: white;
+}
+
+@media screen and (max-width: 769px) {
+  .pricing_con {
+    flex-wrap: wrap;
+  }
+  .pricing_section {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mainPricing_con {
+    padding: 2rem 1rem;
+  }
+  .pricing_section {
+    width: 100%;
+  }
+  .pricing_section button{
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.fact_container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./../../images/image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    color: white;
+    padding: 0rem 3rem;
+}
+
+.fact_item{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.fact_item p{
+    font-weight: bold;
+}
+
+@media screen and (max-width:769px){
+    .fact_container{
+        flex-wrap: wrap;
+        padding: 0rem 1.5rem;
+    }
+    .fact_item{
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width:376px){
+    .fact_container{
+       gap: 2rem;
+       height: auto;
+       padding: 5rem 1rem;
+    }
+    .fact_item{
+        flex-basis: 100%;
+    }
+}

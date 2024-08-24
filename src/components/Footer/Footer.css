@@ -1,0 +1,130 @@
+.footer_container {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+  background-color: whitesmoke;
+}
+
+.logo_con,
+.question_con {
+  flex-basis: 20%;
+}
+
+.explore_con,
+.quickLinks_con {
+  flex-basis: 12%;
+}
+
+.recentPosts_con {
+  flex-basis: 33%;
+}
+
+.explore_con a {
+  display: flex;
+  margin-bottom: 0.7rem;
+  color: #000;
+  font-size: 13px;
+}
+
+.quickLinks_con a {
+  display: flex;
+  margin-bottom: 0.7rem;
+  color: #000;
+  font-size: 13px;
+}
+
+.explore_con a:hover {
+  color: #1eb2a6;
+}
+
+.quickLinks_con a:hover {
+  color: #1eb2a6;
+}
+
+.creativeAndInspiration {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.creativeAndInspiration img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.dateAdmin_con {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.date_con,
+.admin_con {
+  display: flex;
+  gap: 0.2rem;
+  flex-basis: 50%;
+  color: #1eb2a6;
+}
+
+.dateAdmin_con > p {
+  flex-basis: 100%;
+}
+
+.dateAdmin_con > p:hover {
+  color: #1eb2a6;
+}
+
+.address_con,
+.phone_con,
+.send_con {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.socialFooter_links {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+}
+
+.socialFooter_links .socialFooter {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #1eb2a6;
+}
+
+.socialFooter_links .socialFooter a {
+  color: white;
+}
+
+@media screen and (max-width: 769px) {
+  .footer_container {
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  .logo_con,
+  .explore_con,
+  .recentPosts_con,
+  .quickLinks_con,
+  .question_con {
+    flex-basis: 47%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .logo_con,
+  .explore_con,
+  .recentPosts_con,
+  .quickLinks_con,
+  .question_con {
+    flex-basis: 98%;
+  }
+}

@@ -1,0 +1,68 @@
+.mainBlog_container{
+    background: whitesmoke;
+    padding: 2rem 1rem;
+}
+
+.mainBlog_section{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog_container{
+    background: white;
+    border-radius: 6px;
+    width: 32%;
+}
+
+.blog_container .image{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.blog_container .blogText_container{
+    padding: 1rem;
+}
+
+.blogText_container .icons_container{
+    display: flex;
+    gap: .5rem;
+}
+
+.icons_container p{
+    color: #1eb2a6;
+}
+
+.icons_container small{
+    opacity: .7;
+}
+
+.icons_container .adminBlog_con, .dateBlog_con, .commentBlog_con{
+    display: flex;
+    gap: .1rem;
+}
+
+@media screen and (max-width:769px){
+    .mainBlog_container{
+        padding: 2rem .5rem;
+    }
+
+    .mainBlog_section{
+        padding: 2rem 0rem;
+    }
+
+    .blog_container{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .blog_container{
+        width: 100%;
+    }
+}

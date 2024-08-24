@@ -1,0 +1,110 @@
+.contact_con {
+  display: flex;
+  padding: 4rem 3rem;
+  background: whitesmoke;
+}
+
+.map_con {
+  flex-basis: 50%;
+}
+
+.form_con {
+  flex-basis: 50%;
+  padding: 3rem;
+  background: white;
+}
+
+.form_con > p{
+    margin: 1rem 0rem;
+}
+
+.address_con {
+  display: flex;
+}
+
+.address, .email, .phone{
+    flex-basis: 31%;
+}
+
+form > input,
+form > textarea {
+  border: 1.5px solid black;
+}
+
+.nameInput {
+  margin-right: 1rem;
+}
+
+.nameInput:focus, .emailInput:focus,.subjectInput:focus, form > textarea:focus{
+    border-color: #1eb2a6;
+}
+
+.nameInput,
+.emailInput {
+  width: 48%;
+  padding: 0.4rem;
+}
+
+.subjectInput {
+  display: block;
+}
+
+.subjectInput,
+form > textarea {
+  margin-top: 0.7rem;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+
+form > input::placeholder, form > textarea::placeholder{
+    opacity: .7;
+}
+
+form button{
+    background: #1eb2a6;
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form_con > h4{
+    margin: 1rem 0rem;
+}
+
+.form_links > .link{
+    margin-right: 1rem;
+    color: #1eb2a6;
+}
+
+@media screen and (max-width:769px){
+    .contact_con{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:620px){
+    .form_con {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:540px){
+    .form_con .address_con{
+        flex-direction: column;
+    }
+    .nameInput, .emailInput{
+        width: 100%;
+    }
+    form .emailInput{
+        display: block;
+        margin-top: .7rem;
+    }
+}
+
+@media screen and (max-width:405px){
+    .contact_con{
+        padding: 4rem 1rem;
+    }
+}

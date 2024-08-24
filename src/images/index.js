@@ -1,0 +1,13 @@
+export { default as image1 } from "./image1.jpg";
+export { default as image2 } from "./image2.jpg";
+export { default as image5 } from "./image5.jpeg";
+export { default as image6 } from "./image6.jpeg";
+export { default as image7 } from "./image7.jpeg";
+export { default as image8 } from "./image8.jpeg";
+export { default as image9 } from "./image9.jpeg";
+export { default as image10 } from "./image10.jpeg";
+export { default as image11 } from "./image11.jpg";
+export { default as image12 } from "./image12.jpg";
+export { default as image13 } from "./image13.jpg";
+export { default as image14 } from "./image14.jpg";
+export { default as image15 } from "./image15.jpg";
